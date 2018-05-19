@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{padding:0;margin:0;}
+        a{color: #333; cursor: pointer; outline: none; text-decoration: none;}
+        input{outline:none;}
+        body{
+            font-family: 苹方;
+        }
+        .page{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+        hr{
+            width: 90%;
+            size: 3px;
+            color: #c0bfc4;
+            opacity: 0.4;
+        }
+        .tag{
+            margin: 40px 0 10px;
+            width: 90%;
+        }
+        .tag .l{
+            float: left;
+        }
+        .tag .l img{
+            height: 13px;
+            width: 13px;
+        }
+        .tag input{
+            border: 0;
+            outline-style: none;
+            /* background-color: blanchedalmond; */
+            width: 100%;
+            height: 90px;
+           text-align: left;
+           font-size: 15px;
+        }
+        .tag .tag-items{
+            float: right;
+            width: 70%;
+
+        }
+        .tag .tag-items span{
+            border: 0.6px solid rgba(194, 194, 194, 0.6);
+            border-radius: 3px;
+            padding: 5px 6px;
+            display: block;
+            float: left;
+            margin: 0 13px 10px 0;
+        }
+        .audio{
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .pass{
+            margin-bottom: 10px;
+        }
+        .audio .clu{
+            width: 100%;
+            height: 33.65px;
+            margin-top: 10px;
+        }
+
+        .audio .clu .yy{
+            width: 180px;
+            height: 33px;
+            line-height: 45px;
+            float: left;
+            background: linear-gradient(#f0e7d0,#e8dcbc);
+            border-radius: 16px;
+        }
+        .audio .clu img{
+            width: 16px;
+            /* height: 15px; */
+            margin: 2.5px 0 0 10px;
+        }
+        .audio .clu .del{
+            float: right;
+            width: 25px;
+            height: 25px;
+            border:  1px solid rgb(194, 194, 194);
+            text-align: center;
+            color: #c7c7cc;
+            line-height: 25px;
+            border-radius: 4px;
+        }
+
+        .audio .speak{
+            width: 60%;
+            height: 35px;
+            /* background-color: #a61f0e; */
+            background: linear-gradient(#c55c49,#9c1a0b); 
+            border-radius: 16px;
+            margin: 0 auto 10px;
+            text-align: center;
+            line-height: 35px;
+            color: #fff;
+        }
+        .img{
+            width: 90%;
+            margin-top: 10px;
+        }
+        .img .img-items{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 8px;
+        }
+        .img img{
+            /* width: 78.83px;
+            height: 78.83px; */
+            width: 23%;
+            height: 23%;
+        }
+        .img .add{
+            width: 23%;
+            padding-bottom: 2.5%;
+            border: 1px solid #d8d8d9;
+            font-size: 100px;
+            line-height: 65px;
+            color: #d8d8d9;
+            text-align: center;
+            font-weight: lighter;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+            
+                <div class="tag">
+                    <input type="text" placeholder ="  点击输入你的感悟...">
+                    <div class="l">
+                        <img src="./png/002-11.png"> <span style="color: #806c4f; margin-top: -4px;">感悟标签:<span/>
+                    </div>
+                    
+                    <div class="tag-items">
+                        <span style="border: 0.6px solid #ac2210; color: #ac2210">十九大</span>
+                        <span>两学一做</span>
+                        <span>一带一路</span>
+                        <span>718回信</span>
+                        <span style="float: right; background-color: #806c4f; color: #fff; margin-right: 1px;">更多</span>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="audio">
+                    <div class="pass">
+                        <div class="clu">
+                            <div class="yy"><img src="./png/002-12.png"></div>
+                            <div class="del">删</div>
+                        </div>
+                        <div class="clu">
+                            <div class="yy"><img src="./png/002-12.png"></div>
+                            <div class="del">删</div>
+                        </div>
+                        <div class="clu">
+                            <div class="yy"><img src="./png/002-12.png"></div>
+                            <div class="del">删</div>
+                        </div>
+                    </div>
+                    <div class="speak">
+                       按住 说话
+                    </div>
+
+                </div> 
+
+                <hr>
+
+                <div class="img">
+
+                    <div class="img-items">
+                        <img src="./png/002-1.png"><img src="./png/002-2.png"><img src="./png/002-3.png"><img src="./png/002-4.png">
+                    </div>
+                    <div class="img-items">
+                        <img src="./png/002-5.png"><img src="./png/002-6.png"><img src="./png/002-7.png"><img src="./png/002-8.png">
+                    </div>
+
+                    <div class="add">
+                        +
+                    </div>
+                </div>
+
+        
+    </div>
+    
+</body>
+</html>

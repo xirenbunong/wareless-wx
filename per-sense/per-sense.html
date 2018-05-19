@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{padding:0;margin:0;}
+        a{color: #333; cursor: pointer; outline: none; text-decoration: none;}
+        input{outline:none;}
+        i{font-style:normal;}
+        body{
+            font-family: 苹方;
+            color: #7b7b7b;
+            font-size: 16px;
+        }
+        .page{
+            width:90%;
+            margin: 0 auto;
+        } 
+        .sear{
+            width: 100%;
+            height: 50px;
+            line-height: 45px;
+            margin-top: 60px;
+            background-color: #efeff4;
+        }
+        .sear .sou{
+            width: 13px;
+            height: 13px;
+            position: absolute;
+            margin-left: 34%;
+            margin-top: 17px;
+        }
+        .sear input{
+            width: 73%;
+            height: 30px;
+            margin-left: 15px;
+            border: none;
+            border-radius: 6px;
+            text-align: center;
+        }
+        .sear .filter{
+            float: right;
+            margin-right: 6%;
+            margin-top: 3px;
+        }
+        .sear .filter img{
+            width: 13px;
+            height: 13px;
+        }
+        .per{
+            width: 100%;
+            margin-top: 10px;
+        }
+        .per .avatar{
+            float: left;
+            width: 13%;
+        }
+        .avatar img{
+            width: 43px;
+            height: 43px;
+        }
+        .per .content{
+            margin-left: 14%;
+        }
+        .per .content .name{
+            font-size: 13px;
+        }
+        .per .content .name span{
+            color: #6b4f28;
+            font-weight: bolder;
+        }
+        .per .content .name i{
+            font-size: 11px;
+            color: #806c4f;
+        }
+        .per .content .sense span{
+            color: #806c4f;
+            font-size: 12px;
+        }
+        .per .content .sense .yy{
+            width: 200px;
+            height: 33px;
+            line-height: 45px;
+            background: linear-gradient(#f0e7d0,#e8dcbc);
+            border-radius: 16px;
+            margin: 8px 0;
+        }
+        .per .content .sense .yy img{
+            width: 16px;
+            /* height: 18px; */
+            margin: 2.5px 0 0 10px;
+        }
+        .content .img{
+            width: 275px;
+            height: 275px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .content .img .img-items{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .content .img img{
+            width: 32%;
+            height: 32%;
+        }
+        .content .foot{
+            height: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        .content .foot img{
+            width: 15px;
+            display: block;
+            float: left;
+            margin: 3px 2px 0 0;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="sear">
+        
+        <img src="./png/003-10.png" class="sou">
+        <input type="text" placeholder="  搜索">
+        <div class="filter">
+            <span style="color: #9b9b9b">筛选</span>
+            <img src="./png/003-9.png">
+        </div>
+        
+    </div>
+
+    <div class="page">
+
+
+                
+                <div class="per">
+            
+                    <div class="avatar">
+                        <img src="./png/003-8.png">
+                    </div>
+                    
+                    <div class="content">
+                        <div class="name">
+                            <span>雷锋 </span>|
+                            <i>校党委</i>
+                        </div>
+                        <div class="sense">
+                            <span>3分钟前</span>
+                            <p>在今后工作中，要向榜样学习，
+                                干事业开拓进取，遇困难无所畏惧，
+                                利益面前甘愿奉献，努力在自己的
+                                岗位上发光发热，以新时代军人的
+                                使命担当奋勇向前</p>
+                                <div class="yy"><img src="./png/002-12.png"></div>
+                        </div>
+                        <div class="img">
+                            <div class="img-items"><img src="./png/003-11.png"><img src="./png/003-12.png"><img src="./png/003-13.png"></div>
+                            <div class="img-items"><img src="./png/003-14.png"><img src="./png/003-15.png"><img src="./png/003-16.png"></div>
+                            <div class="img-items"><img src="./png/003-17.png"><img src="./png/003-18.png"><img src="./png/003-19.png"></div>
+                        </div>
+                        <div class="foot">
+                            <div class="tag">
+                                <img src="./png/002-11.png">
+                                <span>十九大</span>
+                            </div>
+                            <div class="discuss">
+                                <img src="./png/003-6.png" style="margin-top: 4px;">
+                                <span>评论</span>
+                            </div>
+                            <div class="clap">
+                                <img src="./png/003-5.png">
+                                <span>鼓掌</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+    </div>
+
+    
+</body>
+</html>

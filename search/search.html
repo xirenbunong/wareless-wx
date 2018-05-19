@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+                *{padding:0;margin:0;}
+        a{color: #333; cursor: pointer; outline: none; text-decoration: none;}
+        i{font-style:normal;}
+        input{outline:none;}
+        body{
+            font-family: 苹方;
+            color: #7b7b7b;
+            font-size: 16px;
+        }
+        .sear-header{
+            width: 100%;
+            height: 50px;
+            line-height: 50px;
+            margin-top: 60px;
+            background-color: #efeff4;
+        }
+        .sear-header .sear-input{
+            width: 76%;
+        }
+        .sear-header input{
+            float: left;
+            border-radius: 6px;
+            width: 81%;
+            margin-left: 3%;
+            margin-top: 10px;
+            height: 32px;
+            border: none;
+        }
+        .sear-header .sear-input{
+            position: absolute;
+            padding-left: 5%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            z-index:5;
+        }
+        .sear-header .sear-input img{
+            width: 18px;
+            height: 18px;
+            margin-top: 17px;
+        }
+        .sear-header .sear-input .img-r img{
+            width: 14px;
+            height: 14px;
+            margin-top: 20px;
+            opacity: 0.6;
+        }
+        .sear-del{
+            float: right;
+            padding-right: 4%;
+            color: #ac2210;
+        }
+        .sear-list{
+            width: 100%;
+            height: 50px;
+        }
+        .sear-avatar{
+            float: left;
+            padding-left: 5%;
+            padding-top: 7px;
+            width: 10%;
+        }
+        .sear-avatar img{
+            width: 35px;
+            height: 35px;
+        }
+        .sear-list .name{
+            padding-top: 5px;
+        }
+        .sear-list .name span{
+            color: #ac2210;
+        }
+        .sear-list .name p{
+            font-size: 11px;
+            padding-top: 3px;
+        }
+        hr{
+            width: 90%;
+            margin: 0 auto;
+            size: 3px;
+            color: #c0bfc4;
+            opacity: 0.4;
+        }
+        i{
+            font-size: 12px;
+            color: #806c4f;
+        }
+    </style>
+</head>
+<body>
+    <div class="sear-header">
+        <input type="text">
+        <div class="sear-input">
+            <div class="img-l"><img src="./png/003-10.png"></div>
+            <div class="img-r"><img src="./png/006-4.png"></div>
+        </div>
+        <div class="sear-del">取消</div>
+    </div>
+
+    <div class="sear-list">
+        <div class="sear-avatar">
+            <img src="./png/006-1.png">
+        </div>
+        <div class="name">
+            <span>雷锋 </span>|
+            <i>校党委</i>
+            <p>感悟87条·鼓掌888个</p>
+        </div>
+    </div>
+    <hr>
+    <div class="sear-list">
+        <div class="sear-avatar">
+            <img src="./png/006-2.png">
+        </div>
+        <div class="name">
+            郝<span>雷锋 </span>|
+            <i>校党委</i>
+            <p>感悟62条·鼓掌1024个</p>
+        </div>
+    </div>
+    <hr>
+    <div class="sear-list">
+        <div class="sear-avatar">
+            <img src="./png/006-3.png">
+        </div>
+        <div class="name">
+            张<span>雷锋 </span>|
+            <i>校党委</i>
+            <p>感悟104条·鼓掌1666个</p>
+        </div>
+    </div>
+    <hr>
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{padding:0;margin:0;}
+        a{color: #333; cursor: pointer; outline: none; text-decoration: none;}
+        i{font-style:normal;}
+        input{outline:none;}
+        hr{
+            size: 3px;
+            color: #c0bfc4;
+            opacity: 0.4;
+        }
+        body{
+            font-family: 苹方;
+            color: #7b7b7b;
+            font-size: 16px;
+        }
+        .dis .header{
+            width: 90%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+            height: 50px;
+        }
+        .dis .header div{
+            color: #6b4f28;
+            font-weight: bolder;
+        }
+        .discuss-items{
+            width: 90%;
+            margin: 0 auto;
+
+        }
+        .discuss-items{
+            margin-top: 10px;
+        }
+        .discuss-items .avatar{
+            float: left;
+            width: 10%;
+        }
+        .discuss-items .name span{
+            color: #6b4f28;
+            font-weight: bolder;
+        }
+        .discuss-items .name i{
+            font-size: 11px;
+            color: #806c4f;
+        }
+        .avatar img{
+            width: 35px;
+            height: 35px;
+        }
+        .name,.sense{
+            margin-left: 12%;
+        }
+        .sense{
+            margin-top: 8px;
+            margin-bottom: 5px;
+        }
+        .author{
+            color: #6b4f28;
+            font-weight: bolder;
+        }
+        .sense p{
+            padding-bottom: 6px;
+        }
+        .time{
+            color: #806c4f;
+            font-size: 12px;
+        }
+        .dis-tag{
+            float: right;
+            width: 25%;
+        }
+        .dis-tag{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .dis-tag .dis-img img{
+            height: 13px;
+            width: 13px;
+        }
+
+        .reply{
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            height: 50px;
+            background-color: #f6f6f6;
+        }
+        .reply .reply-who{
+            width: 90%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+            height: 50px;
+        }
+        .reply .reply-who span{
+            color: #806c4f;
+
+        }
+        .reply .reply-btn{
+            height: 50px;
+            line-height: 50px;
+            background-color: #fff;
+        }
+        .reply .reply-btn input{
+            margin-left: 3%;
+            border:none;
+            width: 81%;
+            height: 32px;
+            line-height: 32px;
+            font-size: 15px;
+            border: none;
+            border-radius: 6px;
+            background-color: #f6f6f6;
+        }
+        .reply .reply-btn span{
+            padding-left: 5px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="dis">
+        <div class="header">
+            <div>2条评论</div>
+            <div>88鼓掌</div>
+        </div>
+        <div class="discuss">
+                <hr>
+            <div class="discuss-items">
+                
+                <div class="avatar">
+                    <img src="./png/003-7.png">
+                </div>
+                <div class="name">
+                    <span>小明</span>|<i>学生处</i>
+                </div>
+                <div class="sense">
+                    <p>今年2月党中央决定在全体党员中开展“学党章党规、学系列讲话，做合格党员”学习教育。</p>
+                    <span class="time">10月28日 11点04分</span>
+                    <div class="dis-tag">
+                        <div class="dis-img"><img src="./png/004-1.png"> <span>5</span></div>
+                        <div class="dis-img"><img src="./png/004-2.png"></div>
+                    </div>
+                </div>
+                <hr style="margin-left: 12%;">
+                <div class="sense">
+                    <span class="author">雷锋</span><span class="author">(作者)：</span>
+                    <span>好好表现，加油！</span>
+                    <p></p>
+                    <span class="time">10月28日 11点08分</span>
+                    <div class="dis-tag">
+                        <div class="dis-img"><img src="./png/004-1.png"> <span>7</span></div>
+                        <div class="dis-img"><img src="./png/004-2.png"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="reply">
+        <div class="reply-who">
+            <div>正在回复<span>小明</span></div>
+            <div>取消回复</div>
+        </div>
+        <div class="reply-btn">
+            <input type="text" placeholder=" 回复...">
+            <span>发布</span>
+        </div>
+    </div>
+</body>
+</html>
